@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "generate-pdf": "create-pdf.js"
+  },
+  "scripts": {
+    "pdf": "node create-pdf.js",
+    "pdf:nums": "node create-pdf.js --nums"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.10.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "description": "CLI tool to convert local HTML files into PDF via Puppeteer",
+  "type": "commonjs"
+}
