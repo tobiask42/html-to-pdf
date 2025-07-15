@@ -18,7 +18,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/dein-username/html-to-pdf
+git clone https://github.com/tobiask42/html-to-pdf
 cd html-to-pdf
 npm install
 npm link
